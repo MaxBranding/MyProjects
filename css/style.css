@@ -396,7 +396,7 @@ li {
 
 .textline {
 	padding-top: 50px;
-	padding-left: 70px;
+	padding-left: 90px;
 }
 
 .textline h3 {
@@ -445,4 +445,214 @@ li {
 .downline {
 	display: flex;
 	margin: 0 50px;
+}
+
+.itet h3 {
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 70px;
+	color: #7AAEAE;
+	padding: 30px 0 30px 90px;
+}
+
+.upblocks {
+	display: flex;
+	max-height: 720px;
+}
+
+.leftm {
+	width: 33.3%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+}
+
+.rightm {
+	width: 66.6%;
+	display: flex;
+	position: relative;
+	margin: 0 20px 0 20px;
+}
+
+.upshit {
+	display: flex;
+	position:relative;
+	margin-bottom: 20px;
+}
+
+.blan {
+	position: absolute;
+}
+
+.blan h3 {
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding: 70px 0px 15px 30px;
+}
+
+.blan p {
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 30px;
+	color: #FFFFFF;
+	padding: 0px 0px 15px 30px;
+	margin-bottom: 20px;
+}
+
+.readbu {
+	background: #FFFFFF;
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	color: #AFC8C8;
+	border: none;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding: 10px 50px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.secblok {
+	display: flex;
+	position:relative;
+}
+
+.warnim {
+	position: absolute;
+}
+
+.warnim h3 {
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 450px;
+}
+
+.warnim p {
+	width: 57%;
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 38px;
+	color: #FFFFFF;
+	padding: 30px 0 30px 20px;
+}
+
+.warning {
+	margin-top: 15px;
+}
+
+/*Работа с flex/absolute\relative строка кода - 289*/
+
+.downblocks {
+	display: flex;
+	margin: 19px 90px 0 39px;
+}
+
+.onebl {
+	width: 33.3%;
+	position: relative;
+	display: flex;
+	margin: 0 10px;
+}
+
+.wipr {
+	position: absolute;
+}
+
+.wipr h3 {
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding: 50px 0 20px 30px;
+}
+
+.wipr p {
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding: 0 0 25px 30px;
+}
+
+.readnow {
+	background: #FFFFFF;
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	color: #AFC8C8;
+	border: none;
+	margin-left: 30px;
+	padding: 10px 50px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.brokecor {
+	margin-top: -21px;
+}
+
+.foter {
+	padding-top: 30px;
+	position: relative;
+	display: flex;
+	max-height: 255px;
+}
+
+.flexcons {
+	position: absolute;
+	margin-left: -70px;
+    margin-top: 25px;
+}
+
+hr {
+	background: #2B3638;
+	width: 1630px;
+}
+
+.tend {
+	display: flex;
+}
+
+.tend p {
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-right: 400px;
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: 550;
+	font-size: 18px;
+	line-height: 34px;
+	color: #667578;
+}
+
+.tend li {
+	font-family: HelveticaNeueCyr;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding: 30px 20px;
 }
