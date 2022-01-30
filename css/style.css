@@ -656,3 +656,99 @@ hr {
 	color: #FFFFFF;
 	padding: 30px 20px;
 }
+
+/*Респонсив*/
+
+@media (max-width: 1493px) {
+	.downblocks {
+		display: none;
+	}
+	
+	.tend li {
+		display: none;
+	}
+}
+
+@media (max-width: 1470px) {
+	.links {
+		display: none;
+	}
+	
+	.blan h3 {
+		padding-top: 25px;
+		padding-bottom: 0;
+	}
+	
+	.warnim h3 {
+		padding-top: 350px;
+	}
+	
+	.warnim p {
+		padding-bottom: 11px;
+	}
+}
+
+@media (max-width: 1000px) {	
+	.stat1 {
+		display: none;
+	}
+
+	.stat2 {
+		display: none;
+	}
+
+	.stat3 {
+		display: none;
+	}
+
+	.stat4 {
+		display: none;
+	}
+
+	.stat5 {
+		display: none;
+	}
+
+	.stat6 {
+		display: none;
+	}
+
+	.upmenu {
+		display: block;
+	}
+
+	.information {
+		display: block;
+	}
+
+	.row {
+		max-width: 100%;
+		padding-left: 55px;
+	}
+
+	.inftext {
+		max-width: 100%;
+	}
+
+	.col-33 {
+		width: 100%;
+	}
+
+	.downmenu {
+		display: block;
+	}
+
+	.upline {
+		display: block;
+		width: 130%;
+	}
+
+	.downline {
+		display: block;
+		width: 130%;
+	}
+
+	.articles {
+		display: none;
+	}
+}
